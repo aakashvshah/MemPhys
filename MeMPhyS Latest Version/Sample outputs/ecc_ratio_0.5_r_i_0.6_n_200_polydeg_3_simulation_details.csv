@@ -1,0 +1,52 @@
+hostname,shantanu
+username,shantanu
+
+Grid,Details
+meshfile,name,,,,/media/shantanu/Data/All Simulation Results/Meshless_Methods/URAP Eccentric Couette Flow/CAD_Mesh_files/ecc_ratio_0.5_r_i_0.6_n_200.msh
+Problem,dimension,2
+No. of,nodes,nv,2562
+No. of,nodes,nv_boundary,318
+No. of,nodes,nv_internal,2244
+Characteristic,dx_max,0.03669825534996192
+Characteristic,dx_min,0.02132302834776769
+Characteristic,dx_avg,0.02961836816188927
+
+RBF,Details
+phs_deg,3
+poly_deg,3
+cloud_size_multiplier,2
+num_poly_terms,10
+cloud_size,20
+RBF_cond_num_max,35225.57245565066
+RBF_cond_num_min,5990.413468330639
+RBF_cond_num_avg,11019.08003669314
+grad_x_eigval,72.504771740197,0
+grad_y_eigval,71.66476057675247,0.5489636775496013
+laplace_eigval,-29419.10199232694,0
+
+Solver,Settings
+nt,1000000
+nt_actual,259
+timestep_dt,0.08604780423579611,seconds
+steady_tolerance,1e-05
+solver_tolerance,1e-06
+Courant,10
+solver_type,eigen_ilu_bicgstab
+gmres_kdim,20
+euclid_precond_level_hypre,50
+precond_droptol,0.0001
+n_iter,1000
+
+Fluid and Flow,Details
+mu,0.03
+rho,10
+
+Run Times,(seconds)
+points_timer,0.011978
+cloud_id_timer,0.003991
+rcm_timer,0.003999
+cloud_misc_timer,0
+grad_laplace_coeff_timer,0.151936
+factoring_timer,0.047971
+solve_timer,2.633939
+total_timer,2.893799
