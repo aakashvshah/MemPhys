@@ -63,7 +63,7 @@ for i in range(100,300,50):
     T.append(T_interp[:,13])
     P.append(p_interp[:,13])
     counter += 1
-
+# xfg
 n=0
 for var in variables:
     fig.append(plt.figure())
